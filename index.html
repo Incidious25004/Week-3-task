@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Feedback Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Resume Feedback Tool</h1>
+
+        <div class="upload-section">
+            <input type="file" id="resume-upload" accept=".pdf,.docx,.txt">
+            <button onclick="submitResume()">Submit Resume</button>
+        </div>
+
+        <div id="feedback" class="feedback-section">
+            <h2>Feedback</h2>
+            <div id="feedback-content">
+                <!-- Feedback will appear here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
